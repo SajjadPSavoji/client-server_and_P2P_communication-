@@ -5,6 +5,7 @@
 #include <string.h>
 #include <errno.h>
 #include <arpa/inet.h>
+#include<stdio.h>
 #include <poll.h>
 #include <sys/select.h>
 #include <sys/stat.h>
@@ -12,7 +13,6 @@
 #include <fcntl.h>
 #include <sys/time.h>
 
-#include<stdio.h>
 
 #define Q_LEN 20
 #define BUFFSIZE 128

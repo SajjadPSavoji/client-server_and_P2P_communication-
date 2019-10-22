@@ -3,6 +3,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <sys/socket.h>
+#include<stdio.h>
 #include <netdb.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,7 +15,6 @@
 #include <poll.h>
 
 
-#include<stdio.h>
 #define Q_LEN 20
 #define STDIN 0
 #define MAX_CLIENT 20
